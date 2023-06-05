@@ -1,0 +1,171 @@
+#new_summer {
+  margin-top: 7em;
+}
+#new_summer h1 {
+  font-size: 4em;
+  margin: 0.2em;
+}
+#new_summer button {
+  height: 3em;
+  width: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+#contact1 {
+  display: grid;
+  justify-content: center;
+}
+
+#contact h3 {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+#promo_h3 {
+  padding-top: 1em;
+}
+#promo_h3:hover {
+  color: white;
+}
+.mb-8 {
+  margin-bottom: 1.5em;
+}
+.mt-5 {
+  margin-top: 2.5em;
+}
+.input_email {
+  height: 2.5em;
+  width: 20em;
+  border-radius: 4px;
+  padding-left: 1em;
+  border: 1px solid rgb(128, 127, 127);
+  width: 98%;
+  transition: 1s;
+}
+.input_email:hover {
+  border: 1px solid red;
+  transition: 1s;
+}
+.leading-3 {
+  text-align: center;
+  padding: 0.5em 0em;
+  transition: 1s;
+}
+.leading-3:hover {
+  transition: 1s;
+}
+.info1 {
+  margin-left: 1em;
+  margin-top: 2em;
+}
+.send_button {
+  margin-left: -3.7em;
+  background-color: red;
+  width: 3.5em;
+  height: 2em;
+  margin-top: 0.2em;
+  border-radius: 4px;
+}
+.input_send {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.-mt-9 {
+  margin-top: -8em;
+  margin-left: 2em;
+  width: 80%;
+  background-color: green;
+}
+.info1 i {
+  color: red;
+}
+#promo div:hover {
+  color: white;
+  transition: 1s;
+}
+.hr {
+  background-color: red;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.5em;
+}
+#promo div {
+  transition: 1s;
+}
+.fig_absolute {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15em;
+  color: white;
+}
+.mt-28 {
+  margin-top: 20em;
+}
+.button {
+  width: 10em;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fig1 {
+  margin-top: 20vh;
+  margin-left: 15vw;
+}
+.quickl {
+  margin-left: 1em;
+}
+@media only screen and (min-width: 768px) {
+  .nnanna {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(186, 195, 204);
+  }
+  .nna1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70vh;
+  }
+  .nna1 h1,
+  .nna1 p {
+    color: black;
+  }
+  .nna1 button {
+    margin-top: 1em;
+  }
+  .image1 {
+    height: 70vh;
+  }
+  .fig1 {
+    position: static;
+    margin: 0%;
+  }
+  .fig1:hover {
+    background-color: transparent;
+  }
+  .fig1 button:hover {
+    background-color: rgb(53, 53, 53);
+  }
+  .leading-3 {
+    line-height: 2em;
+  }
+  .info1 {
+    margin-top: 0%;
+  }
+  .contact5 {
+    margin-top: 2em;
+  }
+  .hr {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    height: 0.5em;
+  }
+}
